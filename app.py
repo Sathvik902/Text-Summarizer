@@ -11,6 +11,7 @@ def Index():
 
 @app.route('/summerize',methods = ["GET","POST"])
 def summerize():
+    
     if req.method == "POST":
         API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
         headers = {"Authorization": "Bearer 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"}
