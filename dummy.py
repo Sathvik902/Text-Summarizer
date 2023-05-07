@@ -17,7 +17,6 @@ output = query({
 print(output)
 
 
-
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
